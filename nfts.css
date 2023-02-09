@@ -1,0 +1,139 @@
+.image {
+    /* background-image: url('https://ritzherald.com/wp-content/uploads/2021/11/Tainsei-NFT-Collection-Japanese-Art-meets-Ethereum-900x425.jpg'); */
+    background-size: 300px 400px;
+    background-color: transparent;
+    color: #db6e14;
+    width: 296px;
+    height: 400px;
+    position: relative;
+}
+.img{
+border-radius: 15px 15px 200px 200px;
+position: absolute;
+}
+#left,
+#right {
+    display: inline-block;  
+    width: 146px;
+    height: 500px;
+    background-color: #db6e14;
+    position: absolute;
+    z-index: -1;
+}
+
+ #left {
+    border-radius: 15px 0px 0px 15px;
+    top: 0;
+
+}
+
+#right {
+    border-radius: 15px 15px 15px 0px;
+    left: 50%;
+    top: 0;
+}
+
+.cardclick {
+    position: relative; 
+    width: auto;
+    height: auto;
+    border-radius: 15px 15px 15px 15px;
+}
+
+.firstbox {
+    background-color: transparent;
+    display: inline-block; 
+    border-radius: 15px 15px 15px 15px;
+    position: absolute;
+}
+
+
+.s1class {
+    color: white;
+    position: absolute; 
+     bottom: 0;
+    left: 20%;
+}
+
+.s1class span,
+.s2class span {
+    display: block;
+}
+
+
+.s2class {
+    color: white;
+    position: absolute; 
+     bottom: 0; 
+     right: 63%;
+     margin-right: -50%; 
+}
+
+.main-header{
+    color: white;
+    font-size: 24px;
+    position: absolute;
+    z-index: 2;
+    left: 30%;
+    top: 40px;
+} 
+
+
+
+/* second card */
+
+.card2 {
+    background-color: #db6e14;
+    width: 300px;
+    height: 500px;
+    border-radius: 15px;
+    position: absolute;
+    left: 350px;
+    display: inline-block;
+}
+
+.username {
+    font-weight: bold;
+    width: 230px;
+    margin: 0 25px 20px;
+    height: 45px;
+    padding: 6px 15px;
+    border-radius: 5px;
+    border: none;
+    background: #F6F7F9;
+    font-size: 14px;
+    outline: none;
+}
+  
+
+.btn {
+    font-weight: bold;
+    width: 230px;
+    margin: 0 25px 20px;
+    height: 45px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    color: #db6e14;
+    background-color: white;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.signup1 {
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.forgetpassword {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    margin-top: -70px;
+}  
