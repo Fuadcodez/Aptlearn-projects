@@ -19,9 +19,11 @@ body{
 }
 #head{
     display: flex;
-    margin: 50px 50px;
+    width: 90vw;
+    margin: 50px auto;
     border: none;
     border-radius: 15px;
+    max-width: 1170px;
   
 }
 .header1{
@@ -57,6 +59,15 @@ body{
     color: white;
     outline: none;
     background-color: transparent;
+    transition: all 0.1s linear;
+    padding: 10px;
+}
+input::placeholder, textarea::placeholder{
+    color: white
+}
+textarea::placeholder{
+    padding-left: 0.5rem;
+    padding-top: 0.2rem;
 }
 #right {
     background: rgba(35, 56, 85, 255);
@@ -72,12 +83,6 @@ body{
     width: 100%;
     color: white;
 }
-
-input {
-    padding: 10px;
-
-}
-
 .val {
     width: 100%;
     margin: auto;
@@ -88,9 +93,19 @@ button {
     outline: none;
     cursor: pointer;
     border: none;
+    font-size: 1rem;
+    transition: all 0.1s linear;
+
+}
+button:hover {
+   background-color: transparent;
+   color: white;
+   border: 1px solid white;
+   margin-left: 0.4rem;
+   scale: 1.04;
 
 }
 .input:hover{
     border: 3px solid rgb(187, 187, 187);
-    transition: all 0.3s ease-in-out;
+    
 }
